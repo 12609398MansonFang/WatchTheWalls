@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+
+
+body{
+    text-align: center;
+    background: #4947f1dc;
+}
+
+body h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+body .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body .container canvas{
+    background: #ffffff;
+    box-shadow: black 20px 10px 50px;
+    z-index: 1;
+}
+
+body .container .startUI{
+    background: #4947f1dc;
+    border-radius: 10px;
+    width: 350px;
+    height: 150px;
+
+    position: absolute;
+    top: 250px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body .container .startUI h1{
+    font-size: 15px;
+    color: white;
+    font-weight: 10;
+}
+
+body .container .startUI button{
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background: #4947f1dc;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+body .container .startUI p{
+    font-size: 30px;
+    color: white;
+}
+/* 
+body .container .restartUI{
+    background: #4947f1dc;
+    border-radius: 10px;
+    width: 350px;
+    height: 100px;
+
+    position: absolute;
+    top: 400px;
+    z-index: 2;
+
+    display: flex;
+}
+
+body .container .restartUI h1{
+    position: relative;
+    top: 15px;
+    font-size: 25px;
+    color: white;
+    font-weight: 10;;
+}
+
+body .container .restartUI button{
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    background: #4947f1dc;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+} */
+
+
+/* body h1{
+    
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+body canvas{
+    box-shadow: black 20px 10px 50px;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+} 
+
+body .container{
+    background: rgb(122, 121, 190);
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    border-radius: 10px;
+}
+
+body .container h2{
+    position: relative;
+    top: 30px;
+}
+
+body .container button{
+    position: relative;
+    top: 300px;
+
+
+    width: 100px;
+    height: 50px;
+
+    border-radius: 10px;
+
+    background: rgb(122, 121, 190);
+    border: 2px solid white;
+
+    text-transform: uppercase;
+
+    font-weight: bold;
+
+    cursor: pointer;
+} */
