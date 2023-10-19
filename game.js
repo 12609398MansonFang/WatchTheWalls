@@ -150,7 +150,7 @@ function spawnObstacle(){
         }, 2000);
 }
 
-//Scorr Counter/////////////////////////////////////////////
+//Score Counter/////////////////////////////////////////////
 let score = 0;
 
 function scoreCounter(){
